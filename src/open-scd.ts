@@ -38,7 +38,6 @@ import {
   newWizardEvent,
   Wizard,
   WizardInput,
-  newActionEvent,
 } from './foundation.js';
 import { getTheme } from './themes.js';
 import { plugin } from './plugin.js';
@@ -356,9 +355,6 @@ export class OpenSCD extends Setting(
 
   constructor() {
     super();
-
-    if ('serviceWorker' in navigator)
-      navigator.serviceWorker.register('/sw.js');
 
     this.handleKeyPress = this.handleKeyPress.bind(this);
     document.onkeydown = this.handleKeyPress;
