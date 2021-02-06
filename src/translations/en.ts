@@ -134,6 +134,13 @@ export const en = {
       nouniqueied: 'IED element {{ name }} already in the file',
     },
   },
+  transform: {
+    subscriber: {
+      description: 'Subscriber update: ',
+      nonewitems: 'no new IEDName elements to add',
+      message: '{{updatenumber}} IEDName elements added to the project',
+    },
+  },
   add: 'Add',
   remove: 'Remove',
   edit: 'Edit',

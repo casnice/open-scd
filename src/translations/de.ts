@@ -137,6 +137,13 @@ export const de: Translations = {
       nouniqueied: 'IED Element {{ name }} bereits geladen',
     },
   },
+  transform: {
+    subscriber: {
+      description: 'GOOSE Ziele aktualisieren: ',
+      nonewitems: 'keine neuen IEDName elemente',
+      message: '{{updatenumber}} IEDName elemente hinzugefügt',
+    },
+  },
   add: 'Hinzufügen',
   remove: 'Entfernen',
   edit: 'Bearbeiten',
