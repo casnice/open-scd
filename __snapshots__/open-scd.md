@@ -337,6 +337,8 @@
   progress="0"
 >
 </mwc-circular-progress-four-color>
+<wizard-dialog>
+</wizard-dialog>
 <mwc-dialog
   heading="Settings"
   id="settings"
@@ -392,7 +394,6 @@
   <mwc-button
     dialogaction="save"
     slot="primaryAction"
-    unelevated=""
   >
     Save
   </mwc-button>
